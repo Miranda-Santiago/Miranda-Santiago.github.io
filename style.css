@@ -1,0 +1,62 @@
+*{
+    font-family: "Overpass", sans-serif;
+}
+header{
+    background-color: #D79988 ;
+    
+}
+header span{
+    color: white;
+}
+body{
+    background-color: #F5E6E1;
+}
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover {
+    background-color: #E1B3A6;
+}
+/* color de palabra al visitar un link  */
+.nav-item a:visited{
+    color: white;
+}
+.nav-item a:link{
+    color: white;
+}
+#nav-button{
+    background-color: #E1B3A6;
+}
+.icon-square .bi{
+    /* background-color:#e7c3b9;*/
+    color: #DD5A44;
+    /* width: 30px;*/
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.27em;
+    
+}
+.img-proyecto1{
+    background-image: url(/assets/clon-pinterest.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 500px
+}
+
+.img-proyecto1 .d-flex.flex-column {
+    position: relative;
+    z-index: 2; 
+}
+
+#proyecto1{
+    color:#DD5A44;
+    opacity: none;
+}
+.card-body{
+    background-color: #F5E6E1;
+}
+#fondo-testimonios{
+    background-color: #F5E6E1;
+}
