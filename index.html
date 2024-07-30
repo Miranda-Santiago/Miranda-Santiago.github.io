@@ -119,80 +119,113 @@
         </section>
 
         <section id="proyectos">
-            <div class="container px-4 py-5" id="custom-cards">
-                <h2 class="pb-2 border-bottom">Proyectos</h2>
-                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="container">
+                <h2 id="subtitulo-proyectos" class="pb-2 border-bottom">Proyectos</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
-                        <div
-                            class="img-proyecto1 card card-cover h-100 overflow-hidden text-bg-white rounded-4 shadow-lg">
-                            <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
-                                <h3 id="proyecto1" class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Pinterest</h3>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="me-auto">
-                                        <img src="/assets/clon-pinterest.png" alt="Bootstrap" width="32" height="32"
-                                            class="rounded-circle border border-white">
-                                    </li>
-                                    <li class="d-flex align-items-center me-3">
-                                        <svg class="bi me-2" width="1em" height="1em">
-                                            <use xlink:href="#geo-fill"></use>
-                                        </svg>
-                                        <small>Earth</small>
-                                    </li>
-                                    <li class="d-flex align-items-center">
-                                        <svg class="bi me-2" width="1em" height="1em">
-                                            <use xlink:href="#calendar3"></use>
-                                        </svg>
-                                        <small>3d</small>
-                                    </li>
-                                </ul>
+                        <div class="card h-100">
+                            <img src="/assets/clon-pinterest.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Clon Pinterest</h5>
+                                <p class="card-text">Proyecto realizado en bootcamp de tecnolochicas PRO. Meciante HTML
+                                    y CSS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="assets/clonpinterest.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Primera Página</h5>
+                                <p class="card-text">This is a short card.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content.</p>
                             </div>
                         </div>
                     </div>
 
                 </div>
             </div>
+
         </section>
 
         <section id="testimonios" class="mt-5">
-            <h2 class="pb-2 mb-5 border-bottom">Testimonios</h2>
+            <h2   class="pb-2 mb-5 border-bottom">Testimonios</h2>
+            <!-- <h2 class="pb-2 mb-5 border-bottom">Testimonios</h2>-->
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
+                    <!-- Card carousel -->
                     <div class="carousel-item active">
                         <div class="d-flex justify-content-center">
-                            <div id="fondo-testimonios" class="align-items-center card border-0" style="width: 15rem;">
-                                <img src="/assets/anonima.png" class="rounded-circle card-img-top" alt="Referencia">
+                            <div class="card border-0" style="width: 18rem;">
+                                <img src="/assets/anonima.png" class="rounded-circle card-img-top" alt="...">
                                 <div class="card-body text-center">
-                                    <h5 class="card-title text-center">Dariana Sanchéz</h5>
+                                    <h5 class="card-title text-center">Card title</h5>
                                     <div class="card-header">
                                         Featured
                                     </div>
                                     <p class="card-text text-center">Some quick example text to build on the card title
-                                        and make up the
-                                        bulk of the card's content.</p>
+                                        and make up the bulk of the card's content.</p>
                                 </div>
-                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="card border-0" style="width: 18rem;">
+                                <img src="/assets/anonimo.png" class="rounded-circle card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-center">Card title</h5>
+                                    <div class="card-header">
+                                        Featured
+                                    </div>
+                                    <p class="card-text text-center">Some quick example text to build on the card title
+                                        and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card -->
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="card border-0" style="width: 18rem;">
+                                <img src="/assets/anonima.png" class="rounded-circle card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-center">Card title</h5>
+                                    <div class="card-header">
+                                        Featured
+                                    </div>
+                                    <p class="card-text text-center">Some quick example text to build on the card title
+                                        and make up the bulk of the card's content.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
 
-                                                    <button class="carousel-control-prev" type="button"
-                                                        data-bs-target="#carouselExampleAutoplaying"
-                                                        data-bs-slide="prev">
-                                                        <span class="carousel-control-prev-icon"
-                                                            aria-hidden="true"></span>
-                                                        <span class="visually-hidden">Previous</span>
-                                                    </button>
-                                                    <button class="carousel-control-next" type="button"
-                                                        data-bs-target="#carouselExampleAutoplaying"
-                                                        data-bs-slide="next">
-                                                        <span class="carousel-control-next-icon"
-                                                            aria-hidden="true"></span>
-                                                        <span class="visually-hidden">Next</span>
-                                                    </button>
-                                                </div>
+
+
         </section>
 
         <section id="contacto">
