@@ -21,7 +21,9 @@ body{
 .nav-item a:visited{
     color: white;
 }
-
+.nav-item a:link{
+    color: white;
+}
 #nav-button{
     background-color: #E1B3A6;
 }
