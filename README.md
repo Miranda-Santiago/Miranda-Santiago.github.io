@@ -21,4 +21,4 @@ Pódras encontrarlo aquí [Portafolio](https://miranda-santiago.github.io/)
 * Contacto
 
 ## Captura del Proyecto
-![Captura del proyecto](/assets/portafolioss.png)
+![Captura del proyecto](/assets/ss.png)
