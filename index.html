@@ -24,12 +24,12 @@
 
 <body>
     <!--Header separa encabezado del sitio-->
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 p-5 border-bottom">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 p-4 border-bottom">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
             <svg class="bi me-2" width="40" height="32">
                 <use xlink:href="#bootstrap"></use>
             </svg>
-            <span class="fs-4 ">Miranda Denise Meza Santiago</span>
+            <span class="fs-4 " >Miranda Denise Meza Santiago</span>
         </a>
         <ul class="nav nav-pills">
             <li class="nav-item"><a id="nav-button" href="#sobre-mi" class="nav-link active" aria-current="page">Acerca
@@ -54,10 +54,7 @@
                 <!--- <h2></h2>-->
                 <h2 id="app"></h2>
                 <div class="container col-lg-6 mx-auto">
-                    <p class="lead mb-4">Actualmente soy estudiante de Bioingeniería Médica, entusiasta por aprender y
-                        conocer sobre el campo clínico. En busca de oportunidades para mi crecimiento profesional,
-                        explorando áreas que fortalezcan mi formación académica, logrando obtener una nueva visión y
-                        enfoque clínico. </p>
+                    <p class="lead mb-4" style="text-align:justify;"> Entusiasta estudiante de Bioingeniería Médica con una gran afinidad por la tecnología y la electrónica. Mi objetivo es aplicar mis conocimientos para diseñar soluciones biomédicas innovadoras que aborden los desafíos actuales en el ámbito clínico. Estoy comprometida con el aprendizaje continuo y la búsqueda de nuevas oportunidades para crecer profesionalmente. </p>
                     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                         <button type="button" class="btn btn-outline-secondary btn-lg px-4">Conoce mi
                             trayectoria</button>
@@ -139,6 +136,18 @@
                             <!--bg-body-secondary en class por si quiero fondo en el icono-->
                         </div>
                     </div>
+                    <div class="col d-flex align-items-start">
+                        <div
+                            class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <div>
+                            <h3 class="fs-2 text-body-emphasis">Herramientas de simulación electrónica</h3>
+                            <p style="text-align:justify;">Sólida experiencia en el diseño y simulación de circuitos electrónicos utilizando Multisim y Proteus.</p>
+                            <!--bg-body-secondary en class por si quiero fondo en el icono-->
+                        </div>
+                    </div>
+
                     
                 </div>
             </div>
@@ -168,17 +177,46 @@
                             <img src="/assets/1D.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Mi primera Página</h5>
-                                <p class="card-text">Realizada en el bootcamp de Tecnolochicas PRO, mediante HTML y CSS.</p>
+                                <p class="card-text" >Página realizada en el bootcamp de Tecnolochicas PRO, mediante HTML y CSS.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card h-100 mb-4 box-shadow sombra">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="/assets/electro.png" class="card-img-top" alt="Electrocardiográfo">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in to additional content.</p>
+                                <h5 class="card-title">Electrocardiográfo casero</h5>
+                                <p class="card-text " style="text-align:justify;">Proyecto realizado en la materia de Electrónica Analógica mediante amplificadores operacionales. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 mb-4 box-shadow sombra">
+                            <img src="/assets/Fotopletismografo.png" class="card-img-top" alt="Fotopletismográfo">
+                            <div class="card-body">
+                                <h5 class="card-title">Fotopletismográfo casero</h5>
+                                <p class="card-text " style="text-align:justify;">Proyecto realizado en la materia de Introducción a la instrumentación mediante un circuito eléctrico. Interfaz creada mediante LabView y tarjeta NI-ELVIS II.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card h-100 mb-4 box-shadow sombra height=250px">
+                            <img src="/assets/alarma.png" class="card-img-top" alt="Sensor de alarma">
+                            <div class="card-body">
+                                <h5 class="card-title">Sensor de alarma de temperatura</h5>
+                                <p class="card-text " style="text-align:justify;">
+                                    Proyecto realizado en la materia de Introducción a la instrumentación. Indica cuando la temperatura rebase el valor proporcionado por el usuario en una incubadora desde una interfaz digital diseñada en LabView.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 mb-4 box-shadow sombra height=250px">
+                            <img src="/assets/silla.png" class="card-img-top" alt="Silla">
+                            <div class="card-body">
+                                <h5 class="card-title">Prototipo de Dispositivo de Asistencia</h5>
+                                <p class="card-text " style="text-align:justify;">Dispositivo mecánico capaz de auxiliar a un adulto mayor en el movimiento de sentarse/levantarse de una silla. Diseñado mediante Geogebra.  </p>
                             </div>
                         </div>
                     </div>
@@ -197,7 +235,7 @@
                         <div class="carousel-item active">
                             <div class="d-flex justify-content-center">
                                 <div class="card border-0" style="width: 40rem;">
-                                    <img src="/assets/excel.png" class=" card-img-top" alt="...">
+                                    <img src="/assets/excel.png" class=" card-img-top" alt="Certificado">
                                     <div class="card-body text-center">
                                         <h5 class="card-title text-center">EXCEL</h5>
                                         <div class="card-header">
@@ -214,7 +252,7 @@
                         <div class="carousel-item">
                             <div class="d-flex justify-content-center">
                                 <div class="card border-0" style="width: 40rem;">
-                                    <img src="/assets/tec-emergente.png" class="card-img-top" alt="...">
+                                    <img src="/assets/tec-emergente.png" class="card-img-top" alt="Certificado">
                                     <div class="card-body text-center">
                                         <h5 class="card-title text-center">Introducción Tecnologías Emergentes</h5>
                                         <div class="card-header">
@@ -231,9 +269,9 @@
                         <div class="carousel-item">
                             <div class="d-flex justify-content-center">
                                 <div class="card border-0" style="width: 18rem;">
-                                    <img src="/assets/anonima.png" class="rounded-circle card-img-top" alt="...">
+                                    <img src="/assets/pronto.png" class="rounded-circle card-img-top" alt="Proximamente">
                                     <div class="card-body text-center">
-                                        <h5 class="card-title text-center">Frontend</h5>
+                                        <h5 class="card-title text-center"> Desarrolladora Frontend</h5>
                                         <div class="card-header">
                                             By Tecnolochicas PRO
                                         </div>
@@ -270,7 +308,7 @@
                     <p class="col-lg-8 mx-auto fs-5 text-muted">
                         Contáctame para iniciar un proyecto de desarrollo web.
                     </p>
-                    <div class="d-inline-flex gap-2 mb-5">
+                    <div class="d-inline-flex gap-2 mb-5 correo">
                         <a href="mailto:denise.meza.santiago@gmail.com">
                             <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
                                 Contacto
@@ -288,7 +326,7 @@
         <ul  class="nav justify-content-center  pb-3 mb-3">
             <li class="nav-item"><a href="https://github.com/Miranda-Santiago" target="_blank" class="nav-link px-2 text-body-secondary icon-footer"><i class="bi bi-github"></i></a></li>
             <li class="nav-item"><a href="https://www.linkedin.com/in/miranda-denise-meza-santiago-3b75a8308/" target="_blank" class="nav-link px-2 text-body-secondary icon-footer"><i class="bi bi-linkedin"></i></a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary icon-footer"><i class="bi bi-instagram"></i></a></li>
+            <li class="nav-item"><a href="https://www.instagram.com/mir.ms_/" target="_blank" class="nav-link px-2 text-body-secondary icon-footer"><i class="bi bi-instagram"></i></a></li>
             
         </ul>
         <p class="text-center ">Creado por Miranda Denise en el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a></p>

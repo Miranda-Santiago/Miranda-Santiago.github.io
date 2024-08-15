@@ -10,7 +10,7 @@ Pódras encontrarlo aquí [Portafolio](https://miranda-santiago.github.io/)
 * HTML
 * CSS
 * Bootstrap 5
-* JAVASCRIPT
+* JavaScript
 
 ## El proyecto cuenta con las siguientes secciones:
 

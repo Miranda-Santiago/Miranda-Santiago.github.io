@@ -58,6 +58,11 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 6.5em;
+    
+}
+
+.correo button:hover{
+    transform: scale(1.1);
 }
 footer{
     background-color: #e7c6c0;
@@ -78,9 +83,9 @@ footer p a{
     color: #af6457;
 }
 /* Estilos imagen dentro de la tarjeta */
-.card-img-top:hover{
+/*.card-img-top:hover{
     opacity: 0.7; 
-}
+}*/
 .card-link {
     display: block; /* Asegura que el enlace ocupe el bloque completo */
     text-decoration: none; /* Elimina el subrayado del enlace */
@@ -92,4 +97,3 @@ footer p a{
     opacity: 0.7; 
     box-shadow: 0 4px 8px #D79988;
 }
-
